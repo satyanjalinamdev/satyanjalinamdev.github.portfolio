@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Software Engineer</title>" 
+    <script src="https://cdn.tailwindcss.com"></script>
+        
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <!-- Navbar -->
+     <header>
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-xl font-bold ">My Portfolio</h1>
+            
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="hover:text-yellow-400">Home</a></li>
+                <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+                <li><a href="#skills" class="hover:text-yellow-400">Skills</a></li>
+                <li><a href="#projects" class="hover:text-yellow-400">Projects</a></li>
+                <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
+            </ul>
+            
+        </div>
+    </nav>
+     </header>
+
+
+
+    <!-- Hero Section -->
+    <section class="text-center py-20">
+        <div class="flex flex-col items-center">
+            <img src="file:///C:/Users/satyanjali%20namdev/Pictures/Camera%20Roll/satya.jpg" width="200" height="200" alt="profile photo" style="display: block;">
+            <h2 class="text-4xl font-bold">Hi,I'm Satyanjali Namdev</h2>
+            <p class="text-1g text-gray-400 mt-2">A passionate web developer & designer</p>
+        <a href="#contact" class="mt-4 inline-block bg-blue-500 px-6 py-2 rounded-lg text-white hover:bf-blue-600">Here me</a>
+        </div>
+    </section>
+    <!---About sections-->
+    <section id="about" class="bg-gray-800 py-16">
+        <div class="container mx-auto px-6"></div>
+        <h2 class="text-3xl font-bold text-center">About me</h2>
+        <p class="mt-4 text-gray-400 text-center">
+            I am passionate Software Engineer with a focus on web Development,automation and web application.
+            I turn ideas into reality using clean and efficient code. 
+            I specialize in front-end Development with html,tailwind CSS,JavaScripts.
+            My goal is to create fast,responsive and visually stunning web application.
+
+         
+        </p>
+    </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-gray-800 py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-semibold text-center">Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 text-center mt-6">
+                <div class="p-4 bg-gray-700 rounded-lg ">Python</div>
+                <div class="p-4 bg-gray-700  rounded-lg ">Django</div>
+                <div class="p-4 bg-gray-400  rounded-lg ">JavaScripts</div>
+                <div class="p-4 bg-gray-800  rounded-lg ">SQL</div>
+                <div class="P-4 bg-gray-800  rounded-lg ">REST APi</div>
+                <div class="P-4 bg-gray-800  rounded-lg">Git/GitHub </div>
+                <div class="p-4 bg-gray-700 rounded-lg ">Tailwind CSS</div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container mx-auto px-6 py-16">
+            <h2 class="text-3xl font-bold text-center">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 at mt-6">
+                <div class="p-6 bg-gray-800 rounded-lg ">
+                    <h3 class="text-xl font-bold ">Project 1: Web Scraping Tool</h3>
+                    <p class="text-gray-400 mt-2">A Python-based web scraping tool for collecting data from various websites and storing it in a structured format.</p>
+                    <a href="#" class="text-yellow-500 hover:underline">View on GitHub</a>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-lg">
+                    <h3 class="text-xl font-bold ">Project 2: Flask API</h3>
+                    <p class="text-gray-400 mt-2">A RESTful API built with Flask to manage tasks, including CRUD operations and authentication.</p>
+                    <a href="#" class="text-yellow-500 hover:underline">View on GitHub</a>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-lg ">
+                    <h3 class="text-xl font-bold ">Project 3: Data Analysis</h3>
+                    <p class="text-gray-400 mt-2">Data analysis and visualization using Python, pandas, and matplotlib to process large datasets and generate reports.</p>
+                    <a href="#" class="text-yellow-500 hover:underline">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- Contact Section -->
+   <section id="contact" class="bg-gray-800 py-16">
+    <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold">Contact me</h2>
+        
+        <form id="contact-form" class="space-y-4 text-left mx-auto sm:w-2/3">
+            <input type="text" name="name" placeholder="Your Name" required class="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-yellow-500">
+            <input type="email" name="email" placeholder="Your Email" required class="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-yellow-500">
+            <textarea name="message" placeholder="Your Message" rows="4" required class="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-yellow-500"></textarea>
+            <button type="submit" class="w-full bg-blue-500 px-6 py-3 rounded-full text-lg font-semibold text-gray-900 hover:bg-blue-400 transition">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-800 py-6 text-center text-white">
+    <p>© 2025 John Doe. All rights reserved.</p>
+</footer>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
